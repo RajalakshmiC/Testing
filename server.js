@@ -41,7 +41,7 @@ app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
 
-//tes
+//test
 
 app.set('views', path.join(__dirname, 'public/views'));
 app.use(express.static(__dirname + '/public'));
